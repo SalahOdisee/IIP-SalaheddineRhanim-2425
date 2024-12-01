@@ -14,10 +14,10 @@
             <ColumnDefinition Width="113*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock x:Name="txtHello" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Hallo! Hoe is je naam?" VerticalAlignment="Top" Width="200" Grid.Column="2" Height="36" Margin="230,212,0,0"/>
+        <TextBlock x:Name="txtHello" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Hallo! Hoe is je naam?" VerticalAlignment="Center" Width="200" Grid.Column="2" Height="36" Margin="230,0,0,0"/>
         <TextBox x:Name="inpNaam" Text="" HorizontalAlignment="Center"  Margin="0,238,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="228" TextChanged="TextBox_TextChanged" Grid.Column="2" Height="36"/>
         <Button x:Name="btnOk" Content="OK" Click="BtnOk_Click" HorizontalAlignment="Left" Height="36" Margin="482,238,0,0" VerticalAlignment="Top" Width="44" Grid.Column="2"/>
-        <Button x:Name="btnReset" Content="HERSTEL" Click="BtnReset_Click" HorizontalAlignment="Left" Height="36" Margin="552,238,0,0" VerticalAlignment="Top" Width="80" Grid.Column="2"/>
+        <Button x:Name="btnReset" Content="HERSTEL" Click="BtnReset_Click" HorizontalAlignment="Left" Height="36" Margin="531,238,0,0" VerticalAlignment="Top" Width="80" Grid.Column="2"/>
     </Grid>
 
 </Window>
